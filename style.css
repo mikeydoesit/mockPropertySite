@@ -44,9 +44,10 @@ nav a:last-child:hover {
 }
 
 .filter {
-  display: flex;
+  display: inline-flex;
   flex-direction: column;
   justify-content: flex-start;
+  float: left;
   width: 20vw;
   padding: 2vh 1vw;
   background-color: #F9F8F4;
@@ -113,4 +114,21 @@ nav a:last-child:hover {
 }
 .filter .controls .checkbox-group label input {
   float: right;
+}
+.results {
+  margin-top: 14vh;
+  display: inline-flex;
+  justify-content: space-around;
+  width: 78.5vw;
+}
+.results .propertyCardWrapper {
+  display: flex;
+  width: 30%;
+  height: 35vh;
+  border-radius: 3px;
+}
+img {
+  width: 100%;
+  border-radius: 5px;
+  display: inline-flex;
 }
