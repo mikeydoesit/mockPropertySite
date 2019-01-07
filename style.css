@@ -42,3 +42,57 @@ nav a:last-child {
 nav a:last-child:hover {
   color: #0A0029;
 }
+
+.filter {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 20vw;
+  padding: 2vh 1vw;
+  background-color: #F9F8F4;
+  color: #b8b4b4;
+}
+.filter .controls {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 80vh;
+}
+.filter .controls h3 {
+  color: #50565C;
+  font-size: 0.95rem;
+}
+.filter .controls .dropdown-group{
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  justify-content: space-around;
+}
+.filter .controls .dropdown-group select {
+  outline: none;
+  border: 1px solid #e8e5e2;
+  background: #F9F8F4;
+  color: #b8b4b4;
+  border-radius: 2px;
+  padding: 1.4vh;
+  font-weight: 500;
+}
+.filter .controls .dropdown-group select option {
+  color: #b8b4b4;
+  background: #F9F8F4 !important;
+  font-weight: 500;
+}
+
+.filter .controls .range-group{
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  justify-content: space-between;
+}
+
+.filter .controls .checkbox-group{
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  justify-content: space-between;
+}

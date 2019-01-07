@@ -20,5 +20,51 @@
         <a href="#">Register</a>
       </nav>
     </header>
+
+    <div class="filter">
+      <div class="controls">
+        <h3>FILTER</h3>
+
+        <div class="dropdown-group">
+          <select id="propertyType" name="">
+            <option value="" selected disabled>Property Type</option>
+            <option value="Any">Any</option>
+            <option value="Houses">Houses</option>
+            <option value="Flats">Flats / Apartments</option>
+            <option value="Bungalows">Bungalows</option>
+            <option value="Land">Land</option>
+            <option value="Commercial">Commercial Property</option>
+          </select>
+
+          <select id="dateAdded" name="">
+            <option value="" selected disabled>Added From</option>
+            <option value="Anytime">Anytime</option>
+            <option value="24">Last 24 hours</option>
+            <option value="3">Last 3 days</option>
+            <option value="7">Last 7 days</option>
+            <option value="14">Last 14 days</option>
+          </select>
+        </div>
+
+        <div class="range-group">
+          <label for="price">Price</label>
+          <input id="price" type="range" name="Price" min="50000" step="10000" max="15000000">
+
+          <label for="rooms">Bedrooms</label>
+          <input id="rooms"type="range" name="Bedrooms" min="0" step="1" max="7">
+        </div>
+
+        <div class="checkbox-group">
+          <input id="garden" type="checkbox" name="garden" value=""><label for"garden">Garden</label>
+
+          <input id="parking" type="checkbox" name="parking" value=""><label for"parking">Parking</label>
+
+          <input id="pool" type="checkbox" name="pool" value=""><label for"pool">Swimming Pool</label>
+        </div>
+
+
+      </div>
+      </div>
+
   </body>
 </html>
