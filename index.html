@@ -9,103 +9,104 @@
     <title>Property filter</title>
   </head>
   <body>
+
     <header>
-      <div class="logo">
+        <div class="logo">
 
-      </div>
-      <nav>
-        <a href="#">Create Ads</a>
-        <a href="#">About Us</a>
-        <a href="#">Log In</a>
-        <a href="#">Register</a>
-      </nav>
-    </header>
-<!-- filter dashboard -->
-    <div class="filter">
-      <div class="controls">
-        <h3>FILTER</h3>
-
-        <div class="dropdown-group">
-          <select id="propertyType" name="">
-            <option value="" selected disabled>Property Type</option>
-            <option value="Any">Any</option>
-            <option value="Houses">Houses</option>
-            <option value="Flats">Flats / Apartments</option>
-            <option value="Bungalows">Bungalows</option>
-            <option value="Land">Land</option>
-            <option value="Commercial">Commercial Property</option>
-          </select>
-
-          <select id="dateAdded" name="">
-            <option value="" selected disabled>Added From</option>
-            <option value="Anytime">Anytime</option>
-            <option value="24">Last 24 hours</option>
-            <option value="3">Last 3 days</option>
-            <option value="7">Last 7 days</option>
-            <option value="14">Last 14 days</option>
-          </select>
         </div>
+        <nav>
+          <a href="#">Create Ads</a>
+          <a href="#">About Us</a>
+          <a href="#">Log In</a>
+          <a href="#">Register</a>
+        </nav>
+      </header>
+  <!-- filter dashboard -->
+      <div class="filter">
+        <div class="controls">
+          <h3>FILTER</h3>
 
-        <div class="range-group">
-          <label for="price">Price</label>
-          <input id="price" type="range" name="Price" min="50000" step="10000" max="15000000">
+          <div class="dropdown-group">
+            <select id="propertyType" name="">
+              <option value="" selected disabled>Property Type</option>
+              <option value="Any">Any</option>
+              <option value="Houses">Houses</option>
+              <option value="Flats">Flats / Apartments</option>
+              <option value="Bungalows">Bungalows</option>
+              <option value="Land">Land</option>
+              <option value="Commercial">Commercial Property</option>
+            </select>
 
-          <label for="rooms">Bedrooms</label>
-          <input id="rooms"type="range" name="Bedrooms" min="0" step="1" max="7">
+            <select id="dateAdded" name="">
+              <option value="" selected disabled>Added From</option>
+              <option value="Anytime">Anytime</option>
+              <option value="24">Last 24 hours</option>
+              <option value="3">Last 3 days</option>
+              <option value="7">Last 7 days</option>
+              <option value="14">Last 14 days</option>
+            </select>
+          </div>
+
+          <div class="range-group">
+            <label for="price">Price</label>
+            <input id="price" type="range" name="Price" min="50000" step="10000" max="15000000">
+
+            <label for="rooms">Bedrooms</label>
+            <input id="rooms"type="range" name="Bedrooms" min="0" step="1" max="7">
+          </div>
+
+          <div class="checkbox-group">
+            <label for"garden">Garden<input id="garden" type="checkbox" name="garden" value=""></label>
+
+            <label for"parking">Parking<input id="parking" type="checkbox" name="parking" value=""></label>
+
+            <label for"pool">Swimming Pool<input id="pool" type="checkbox" name="pool" value=""></label>
+          </div>
+
+
         </div>
-
-        <div class="checkbox-group">
-          <label for"garden">Garden<input id="garden" type="checkbox" name="garden" value=""></label>
-
-          <label for"parking">Parking<input id="parking" type="checkbox" name="parking" value=""></label>
-
-          <label for"pool">Swimming Pool<input id="pool" type="checkbox" name="pool" value=""></label>
         </div>
+  <!-- results secton -->
+  <!-- row -->
+  <div class="results">
+    <!-- <div class="propertyCardWrapper">
+      <img src="img/expensiveProperties/expensive0.png" alt="">
+    </div>
+    <div class="propertyCardWrapper">
+      <img src="img/expensiveProperties/expensive1.png" alt="">
+    </div>
+    <div class="propertyCardWrapper">
+      <img src="img/expensiveProperties/expensive2.png" alt="">
+    </div> -->
 
 
-      </div>
-      </div>
-<!-- results secton -->
-<!-- row -->
-<div class="results">
-  <div class="propertyCardWrapper">
-    <img src="img/expensiveProperties/expensive0.png" alt="">
-  </div>
-  <div class="propertyCardWrapper">
-    <img src="img/expensiveProperties/expensive1.png" alt="">
-  </div>
-  <div class="propertyCardWrapper">
-    <img src="img/expensiveProperties/expensive2.png" alt="">
-  </div>
+  <!-- row -->
 
-</div>
+    <!-- <div class="propertyCardWrapper">
+      <img src="img/expensiveProperties/expensive0.png" alt="">
+    </div>
+    <div class="propertyCardWrapper">
+      <img src="img/expensiveProperties/expensive1.png" alt="">
+    </div>
+    <div class="propertyCardWrapper">
+      <img src="img/expensiveProperties/expensive2.png" alt="">
+    </div> -->
 
-<!-- row -->
-<div class="results">
-  <div class="propertyCardWrapper">
-    <img src="img/expensiveProperties/expensive0.png" alt="">
-  </div>
-  <div class="propertyCardWrapper">
-    <img src="img/expensiveProperties/expensive1.png" alt="">
-  </div>
-  <div class="propertyCardWrapper">
-    <img src="img/expensiveProperties/expensive2.png" alt="">
-  </div>
 
-</div>
 
-<!-- row -->
-<div class="results">
-  <div class="propertyCardWrapper">
-    <img src="img/expensiveProperties/expensive0.png" alt="">
-  </div>
-  <div class="propertyCardWrapper">
-    <img src="img/expensiveProperties/expensive1.png" alt="">
-  </div>
-  <div class="propertyCardWrapper">
-    <img src="img/expensiveProperties/expensive2.png" alt="">
-  </div>
+  <!-- row -->
+<!--
+    <div class="propertyCardWrapper">
+      <img src="img/expensiveProperties/expensive0.png" alt="">
+    </div>
+    <div class="propertyCardWrapper">
+      <img src="img/expensiveProperties/expensive1.png" alt="">
+    </div>
+    <div class="propertyCardWrapper">
+      <img src="img/expensiveProperties/expensive2.png" alt="">
+    </div> -->
 
-</div>
+  </div>
+<script src="app.js"></script>
   </body>
 </html>

@@ -117,18 +117,20 @@ nav a:last-child:hover {
 }
 .results {
   margin-top: 5vh;
-  display: inline-flex;
+  padding: 3rem;
+  display: flex;
   justify-content: space-around;
-  width: 78.5vw;
+  flex: 78.5vw;
+  flex-wrap: wrap;
 }
 .results .propertyCardWrapper {
   display: flex;
-  width: 30%;
+  flex: 30%;
   height: 35vh;
+  margin: 1vw;
   border-radius: 3px;
 }
 img {
   width: 100%;
   border-radius: 5px;
-  display: inline-flex;
 }
